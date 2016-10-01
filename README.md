@@ -1,10 +1,12 @@
 # ajax-chosen-stiiv
 updated version for chosen library v1+ of ajax-chosen made by https://github.com/meltingice 
 
+- original documentation at https://github.com/meltingice/ajax-chosen/edit/master/README.md
+- NOTE: this is a copied and edited version for documentation you can find on link above
 
 ## How to Use
 
-This plugin exposes a new jQuery function named `ajaxChosen` that we call on a `select` element. The first argument consists of the options passed to the jQuery $.ajax function. The `data` parameter is optional, and the `success` callback is also optional.
+This plugin exposes a new jQuery function named `ajaxChosenStiiv` that we call on a `select` element. The first argument consists of the options passed to the jQuery $.ajax function. The `data` parameter is optional, and the `success` callback is also optional.
 
 The second argument is a callback that tells the plugin what HTML `option` elements to make. It is passed the data returned from the ajax call, and you have to return an array of objects for which each item has a `value` property corresponding to the HTML `option` elements' `value` attribute, and a `text` property corresponding to the text to display for each option. In other words:
 
