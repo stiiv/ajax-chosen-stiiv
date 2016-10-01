@@ -46,27 +46,15 @@ becomes:
             <option value="20">Tokyo</option>
         </optgroup>
 
-Note: 
-
-Due to a bug in Chosen, it is necessary to change `choosen.css`.
-
-Add 
-
-	display: list-item;
-
-to 
-
-	.chzn-container .chzn-results .group-result {
-
-class
-
 ### Options
 
-There are some additional ajax-chosen specific options you can pass into the first argument to control its behavior.
+There are some additional ajax-chosen-stiiv specific options you can pass into the first argument to control its behavior.
 
 * `minTermLength`: minimum number of characters that must be typed before an ajax call is fired
 * `afterTypeDelay`: how many milliseconds to wait after typing stops to fire the ajax call
 * `jsonTermKey`: the ajax request key to use for the search query (defaults to `term`)
+* `keepTypingMsg`: encourage user to keep typing while `minTermLength`option has been reached message (defaults to `Keep typing...`)
+* `lookingForMsg`: looking for "term" message (defaults to `Looking for`)
 
 ## Example Code
 
